@@ -1,3 +1,6 @@
+// Copyright (c) 2024 Mariam El-Meligy
+// This project is licensed under the MIT License
+
 function showMessage() {
     document.getElementById('messageBox').classList.toggle('show');
 }
