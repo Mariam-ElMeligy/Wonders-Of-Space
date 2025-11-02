@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wonders of Space</title>
+    
+    <!-- space-themed Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    
+    <header>
+        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1400&q=80" alt="Space Image">
+        <h1>THE WONDERS OF SPACE</h1>
+        <p class="tagline">Exploring the Infinite Universe</p>
+    </header>
+
+    <nav>
+        <a href="#purpose">Purpose</a>
+        <a href="#content">Content</a>
+        <a href="#cards">Discover</a>
+        <a href="#video">Video</a>
+        <a href="#audio">Audio</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <div class="container">
+        <section id="purpose">
+            <h2>Purpose of This Page</h2>
+            <p>Welcome to <span class="highlight">The Wonders of Space</span> — a page designed to inspire your imagination through the beauty and mystery of the cosmos. Our goal is to make you feel the depth of the universe and remind you how every star and galaxy tells a story of creation.</p>
+            
+            <p>We believe that understanding our place in the cosmos begins with wonder. Through carefully curated content, stunning visuals, and thoughtful design, we aim to bring the majesty of space closer to everyone.</p>
+            
+            <div class="fun-fact">
+                <h4><i class="fas fa-lightbulb"></i> Did You Know?</h4>
+                <p>There are more stars in the universe than grains of sand on all the beaches on Earth. Scientists estimate there are about 100 billion galaxies, each with billions of stars!</p>
+            </div>
+        </section>
+
+        <section id="content">
+            <h2>About Our Content</h2>
+            <p>From the majestic rings of Saturn to the glowing nebulae scattered across the Milky Way, space is a masterpiece of colors and light. Here, science meets art — we explore galaxies, planets, and cosmic phenomena that reveal the universe's endless creativity.</p>
+            
+            <div class="quote-block">
+                <div class="quote-text">The important thing is not to stop questioning. Curiosity has its own reason for existing.</div>
+                <div class="quote-author">— Albert Einstein</div>
+            </div>
+            
+            <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+            <p>To bridge the gap between complex astrophysics and public understanding, making the wonders of the cosmos accessible to all curious minds.</p>
+            
+            <h3><i class="fas fa-compass"></i> What You'll Discover</h3>
+            <p>Journey through stunning visual galleries, educational videos, and immersive audio experiences that bring the cosmos to life right here on Earth.</p>
+            
+            <div class="quote">
+                "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself." — Carl Sagan
+            </div>
+            
+            <div class="fun-fact">
+                <h4><i class="fas fa-lightbulb"></i> Space Fact</h4>
+                <p>If you could travel at the speed of light (about 300,000 km per second), it would take you 100,000 years to cross our Milky Way galaxy alone!</p>
+            </div>
+        </section>
+
+        <!-- Content Cards Section -->
+        <section id="cards">
+            <h2>Discover the Cosmos</h2>
+            <p>Explore different aspects of space through these interactive cards:</p>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3><i class="fas fa-meteor"></i> Stars & Galaxies</h3>
+                    <p>Discover the life cycles of stars, from stellar nurseries to supernovae, and explore the different types of galaxies that fill our universe.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3><i class="fas fa-planet-ringed"></i> Planets & Moons</h3>
+                    <p>Journey through our solar system and beyond to exotic exoplanets, mysterious gas giants, and fascinating moons with hidden oceans.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-meteor"></i>
+                    </div>
+                    <h3><i class="fas fa-black-hole"></i> Cosmic Phenomena</h3>
+                    <p>Explore black holes, nebulae, pulsars, and other incredible cosmic events that challenge our understanding of physics.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <h3><i class="fas fa-rocket"></i> Space Exploration</h3>
+                    <p>Learn about humanity's journey to the stars, from early telescopes to modern space missions and future interstellar travel.</p>
+                </div>
+            </div>
+            
+            <div class="fun-fact">
+                <h4><i class="fas fa-lightbulb"></i> Cosmic Speed</h4>
+                <p>The International Space Station travels at about 17,500 miles per hour, orbiting Earth every 90 minutes. That means astronauts see 16 sunrises and sunsets every day!</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interactive Experience</h2>
+            <p>Click below for a message from the stars:</p>
+            <button onclick="showMessage()">Reveal Cosmic Message</button>
+            <div id="messageBox" class="message-box">
+                "Look up at the stars and not down at your feet. Be curious." — Stephen Hawking
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Space Documentary Video</h2>
+            <p>Watch this short NASA documentary exploring planets and galaxies. Witness the incredible scale and beauty of our universe through stunning footage captured by space telescopes and probes.</p>
+            
+            <div class="fun-fact">
+                <h4><i class="fas fa-lightbulb"></i> Video Fact</h4>
+                <p>The Hubble Space Telescope has taken over 1.5 million observations since its launch in 1990, revolutionizing our understanding of the universe.</p>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lcZTcfdZ3Ow?si=CepvbtsRZA4CvwhN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="audio">
+            <h2>Moonlight Space Music</h2>
+            <p>Relax and enjoy this peaceful cosmic background music while gazing into the stars. Let the ethereal sounds transport you across the galaxy as you contemplate the infinite expanse.</p>
+            
+            <div class="quote-block">
+                <div class="quote-text">Music is the silence between the notes.</div>
+                <div class="quote-author">— Claude Debussy</div>
+            </div>
+            
+            <!-- Custom Audio Player -->
+            <div class="audio-player">
+                <div class="player-controls">
+                    <button class="play-pause" id="playPauseBtn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <div class="progress-container" id="progressContainer">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                </div>
+                <div class="time-display">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+                <div class="volume-control">
+                    <i class="fas fa-volume-up"></i>
+                    <div class="volume-slider" id="volumeSlider">
+                        <div class="volume-level" id="volumeLevel"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hidden native audio element -->
+            <audio id="audioElement" loop>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="gallery">
+            <h2>Cosmic Image Gallery</h2>
+            <p>Explore the beauty of stars, galaxies, and planets through this curated gallery. Each image represents a unique celestial wonder, from swirling nebulae to distant galaxies.</p>
+            
+            <div class="fun-fact">
+                <h4><i class="fas fa-lightbulb"></i> Gallery Fact</h4>
+                <p>The Pillars of Creation, captured by Hubble, show star-forming regions in the Eagle Nebula. These towering columns of gas and dust are about 5 light-years tall!</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=800&q=80" alt="Galaxy">
+                <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=800&q=80" alt="Planet Rings">
+                <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=800&q=80" alt="Stars">
+                <img src="https://th.bing.com/th/id/OSK.HEROKOWETJUJDrxRYPueEdNw26KrmT3UGk0M7561QcQxBWY?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Nebula">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>The Wonders of Space &copy; 2023 | Exploring the Cosmos</p>
+        <p><a href="#top" style="color: #00d4ff; text-decoration: none;">Back to Top ↑</a></p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
